@@ -41,5 +41,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          BRANCH: master
-          FOLDER: doc
+          artifact_name: doc
